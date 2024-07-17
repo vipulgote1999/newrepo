@@ -4,7 +4,7 @@ from pathlib import Path
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "style" / "main.css"
-resume_file = current_dir / "assets" / "Amit's Resume latest one.pdf"
+resume_file = current_dir / "assets\Amit_resume_businessAnalyst.pdf"
 profile_pic = current_dir / "assets" / "ID size photo.jpg"
 
 # --- GENERAL SETTINGS ---
@@ -12,7 +12,7 @@ PAGE_TITLE = "Digital CV | AMIT KHADE"
 PAGE_ICON = ":wave:"
 NAME = "**AMIT KHADE**"
 DESCRIPTION = """
-**Student with strong interest in Artificial Intelligence**
+**Data Science and Machine Learning Enthusiast**
 """
 EMAIL = "**amitkhade2507@gmail.com**"
 
