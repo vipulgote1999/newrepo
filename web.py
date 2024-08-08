@@ -8,7 +8,7 @@ resume_file = current_dir / "assets" / "AMIT KHADE RESUME.pdf"
 profile_pic = current_dir / "assets" / "ID size photo.jpg"
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital CV | AMIT KHADE"
+PAGE_TITLE = "MY PORTFOLIO | AMIT KHADE"
 PAGE_ICON = ":wave:"
 NAME = "**AMIT KHADE**"
 DESCRIPTION = """
@@ -81,12 +81,12 @@ st.write(
 
 # --- WORK HISTORY ---
 st.write('\n')
-st.subheader("Work History")
+st.subheader("Internships")
 st.write('\n')
 
 # --- Intern 1
 st.write("🚧", "**Machine Learning Intern | BharatTech**")
-st.write("06/2023 - 09/2023")
+
 st.write(
     """
 - ► Acquired in-depth knowledge of Hugging Face, an AI community, and explored 
