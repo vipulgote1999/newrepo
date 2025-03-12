@@ -4,7 +4,7 @@ from pathlib import Path
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "style" / "main.css"
-resume_file = current_dir / "assets" / "AMIT KHADE RESUME.pdf" 
+resume_file = current_dir / "assets" / "Amit_Resume.pdf" 
 profile_pic = current_dir / "assets" / "ID size photo.jpg"
 
 # --- GENERAL SETTINGS ---
@@ -18,8 +18,7 @@ EMAIL = "**amitkhade2507@gmail.com**"
 
 SOCIAL_MEDIA = {
     
-    "**LinkedIn**": "https://www.linkedin.com/in/contactamitkhade/",
-    "**GitHub**": "https://github.com/amit2507a"
+    "**LinkedIn**": "https://www.linkedin.com/in/contactamitkhade/"
     
 }
 
@@ -71,8 +70,8 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python, Data structures, Object oriented programming, SQL
-- 📊 Data Visulization: Tableau, Matplotlib, MS Excel
+- 👩‍💻 Programming: Python, Data structures, Object oriented programming
+- 📊 Data Visulization: Tableau, Matplotlib, Spreadsheets Excel
 - 📚 Artificial Intelligence: Machine Learning Algorithms, Deep learning, Natural language processing 
 - 🗄️ Databases: MySQL
 """
@@ -81,8 +80,22 @@ st.write(
 
 # --- WORK HISTORY ---
 st.write('\n')
-st.subheader("Internships")
+st.subheader("Experience")
 st.write('\n')
+
+# - - - Intern 2
+st.write("🚧", "**Research Analyst | Krehsst Tech**")
+
+st.write(
+    """
+- ► Developed and maintained dashboards using Tableau and Excel
+ for client performance tracking
+- ► Performed data cleaning and analysis to ensure the accuracy
+ and usability of insights. Leveraged MySQL for data extraction
+ and reporting tasks. 
+
+"""
+)
 
 # --- Intern 1
 st.write("🚧", "**Machine Learning Intern | BharatTech**")
@@ -100,8 +113,13 @@ datasets for machine learning models.
 
 # --- Projects & Accomplishments ---
 st.write('\n')
-st.subheader("Projects & Accomplishments")
+st.subheader("Personal Projects & Accomplishments")
 st.write('\n')
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
+
+
+
+
+
 
