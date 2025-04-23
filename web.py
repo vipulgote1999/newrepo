@@ -4,7 +4,7 @@ from pathlib import Path
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "style" / "main.css"
-resume_file = current_dir / "assets" / "Amit_Resume.pdf" 
+resume_file = current_dir / "assets" / "AMIT_KHADE.pdf" 
 profile_pic = current_dir / "assets" / "ID size photo.jpg"
 
 # --- GENERAL SETTINGS ---
@@ -70,10 +70,12 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python, Data structures, Object oriented programming
-- 📊 Data Visulization: Tableau, Matplotlib, Spreadsheets Excel
-- 📚 Artificial Intelligence: Machine Learning Algorithms, Deep learning, Natural language processing 
-- 🗄️ Databases: MySQL
+- 👩‍💻 Programming: Python, Object oriented programming, SQL
+- 📊 Data Analysis:  NumPy, Pandas, Exploratory Data Analysis, Matplotlib, Seaborn, Plotly,
+ Tableau, MYSQL, MongoDB, Statistics
+- 📚 Artificial Intelligence:  TensorFlow, Keras, CNN, RNN, LSTM, OCR 
+- 📚 Computer vision:  YOLO, OpenCV, Object Detection, Object Segmentation
+- 📚 NLP: NLTK,spacy, Hugging Face Transformers
 """
 )
 
@@ -84,15 +86,21 @@ st.subheader("Experience")
 st.write('\n')
 
 # - - - Intern 2
-st.write("🚧", "**Research Analyst | Krehsst Tech**")
+st.write("🚧", "**AIML Engineer | ProvaanTech**")
 
 st.write(
     """
-- ► Developed and maintained dashboards using Tableau and Excel
- for client performance tracking
-- ► Performed data cleaning and analysis to ensure the accuracy
- and usability of insights. Leveraged MySQL for data extraction
- and reporting tasks. 
+- ► Speech-to-Speech Voice Assistant
+ Tech stack: Python, Faster-Whisper, LLaMA, Coqui TTS, Voice Cloning (XTTS-v2)
+ • Developed a real-time Speech-to-Speech AI assistant integrating STT, LLM, and TTS modules for natural,
+ interactive voice conversations.Enhanced project capabilities with modular architecture to support custom
+ voice avatars, multilingual support, and dynamic prompt handling.
+- ► AIpowered estimation system for construction blueprints
+ Tech Stack: Python, YOLOv8, OpenCV, PaddleOCR
+ • Developed a smart floor plan analysis tool tailored for architects and builders to automate room, door, and
+ annotation detection from construction blueprints.Used YOLOv8 for high-precision door and room object
+ detection and PaddleOCR for reading blueprint labels, achieving 90% detection accuracy and 95% OCR
+ precision.
 
 """
 )
